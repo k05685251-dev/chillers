@@ -1808,3 +1808,116 @@ select:focus-visible {
   .project-photo-card .project-detail { padding-top: 120px; }
   .mobile-dock button, .mobile-dock a { font-size: 7px; }
 }
+
+
+
+/* =========================
+   MOBILE TOUCH + READABILITY UPDATE
+   ========================= */
+@media (max-width: 760px) {
+  html { scroll-padding-top: 76px; }
+  .section-wrap { width: calc(100% - 36px); }
+  .header { min-height: 72px; height: auto; padding: 12px 18px; gap: 10px; flex-wrap: wrap; }
+  .brand { font-size: 13px; gap: 9px; }
+  .brand-mark { width: 40px; height: 40px; font-size: 13px; }
+  .header-actions { gap: 10px; flex-wrap: wrap; }
+  .language-switch button { min-width: 40px; min-height: 40px; padding: 9px 12px; font-size: 12px; }
+  .header-phone { font-size: 14px; }
+  .header-actions .button, .button-small { min-height: 46px; padding: 12px 17px; font-size: 13px; }
+  .desktop-nav a { font-size: 13px; }
+  .hero { min-height: auto; grid-template-columns: minmax(0,1fr); gap: 28px; padding-top: 48px; padding-bottom: 44px; }
+  .hero h1 { font-size: clamp(36px, 8vw, 48px); line-height: 1.12; margin-top: 22px; }
+  .hero-lead { font-size: 16px; line-height: 1.75; }
+  .eyebrow, .section-kicker { font-size: 11px; letter-spacing: 1.5px; }
+  .hero-buttons { display: grid; grid-template-columns: minmax(0,1fr); gap: 12px; }
+  .hero-buttons .button, .button { min-height: 56px; padding: 16px 20px; font-size: 15px; gap: 12px; }
+  .hero-visual { min-height: 360px; margin-right: 0; }
+  .visual-note { right: 12px; bottom: 84px; padding: 12px; }
+  .hero-spec-panel { left: 12px; bottom: 60px; gap: 12px; padding: 12px; }
+  .hero-spec-panel strong { font-size: 20px; }
+  .hero-spec-panel span { font-size: 10px; }
+  .visual-caption { font-size: 9px; }
+  .trust-inner { min-height: 90px; flex-wrap: wrap; justify-content: center; padding-block: 18px; gap: 16px; }
+  .trust-inner span { font-size: 10px; }
+  .trust-inner b { font-size: 24px; }
+  .section { padding-top: 68px; padding-bottom: 68px; }
+  .section-heading { flex-direction: column; align-items: flex-start; gap: 18px; margin-bottom: 28px; }
+  .section-heading h2, .quiz-intro h2, .faq-layout h2 { font-size: clamp(32px, 7.5vw, 42px); }
+  .section-heading > p { font-size: 15px; line-height: 1.8; }
+  .sector-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  .sector-card { min-height: 230px; padding: 18px; }
+  .sector-number { font-size: 12px; }
+  .sector-icon { width: 50px; height: 50px; margin-bottom: 18px; }
+  .sector-card strong { font-size: 15px; line-height: 1.4; }
+  .sector-card small { font-size: 13px; line-height: 1.65; }
+  .card-arrow { font-size: 22px; }
+  .product-grid { grid-template-columns: minmax(0,1fr); gap: 16px; }
+  .product-card { min-height: 350px; }
+  .product-visual { min-height: 230px; }
+  .product-info { padding: 22px; }
+  .product-info h3 { font-size: 18px; }
+  .product-info p { min-height: 0; font-size: 14px; line-height: 1.75; }
+  .product-bottom span, .product-bottom button { font-size: 13px; }
+  .product-bottom button { min-height: 44px; padding: 10px; }
+  .price-note { font-size: 14px; padding: 18px; }
+  .process-grid { grid-template-columns: minmax(0,1fr); }
+  .process-item { min-height: 0; padding: 24px 20px; border-right: 0; border-bottom: 1px solid #dfe3ed; }
+  .process-item h3 { margin-top: 18px; font-size: 19px; }
+  .process-item p { font-size: 14px; }
+  .project-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+  .project-card { min-height: 280px; padding: 15px; }
+  .project-detail { padding-top: 150px; }
+  .project-detail strong { font-size: 16px; }
+  .project-detail small { font-size: 12px; }
+  .quiz-section { padding: 68px 0; }
+  .quiz-layout { grid-template-columns: minmax(0,1fr); gap: 28px; }
+  .quiz-intro > p { font-size: 15px; line-height: 1.8; }
+  .quiz-benefit b { font-size: 15px; }
+  .quiz-benefit small { font-size: 13px; }
+  .quiz-card { min-height: auto; padding: 22px; }
+  .quiz-card-top { font-size: 12px; }
+  .quiz-card form h3, .success-state h3 { font-size: 24px; line-height: 1.35; }
+  .answer-list { grid-template-columns: minmax(0,1fr); gap: 10px; }
+  .answer-option { min-height: 58px; padding: 15px; font-size: 15px; line-height: 1.4; }
+  .quiz-controls { gap: 12px; }
+  .quiz-controls .button { min-height: 54px; font-size: 14px; }
+  .text-button { min-height: 48px; padding: 12px; font-size: 14px; }
+  .field-label { font-size: 14px; gap: 8px; }
+  .field-label input, .field-label select, .field-label textarea, input, select, textarea { font-size: 16px; min-height: 52px; padding: 13px; }
+  .document-grid { grid-template-columns: minmax(0,1fr); gap: 12px; }
+  .document-card { padding: 16px; font-size: 14px; }
+  .faq-layout { grid-template-columns: minmax(0,1fr); gap: 22px; }
+  .faq-item > button { grid-template-columns: 30px minmax(0,1fr) 24px; gap: 12px; padding: 16px 0; min-height: 60px; }
+  .faq-item > button strong { font-size: 15px; line-height: 1.5; }
+  .faq-item > p { margin-left: 42px; font-size: 14px; line-height: 1.8; }
+  .contact-section { padding: 60px 0; }
+  .contact-layout { grid-template-columns: minmax(0,1fr); gap: 22px; }
+  .contact-layout h2 { font-size: clamp(32px,7.5vw,42px); }
+  .contact-layout p { font-size: 15px; line-height: 1.8; }
+  .contact-actions { grid-template-columns: minmax(0,1fr); gap: 12px; }
+  .contact-actions .button { min-height: 56px; padding: 15px; font-size: 15px; }
+  .contact-phone { font-size: 16px; }
+  .footer { padding-top: 45px; }
+  .footer-main { grid-template-columns: minmax(0,1fr); gap: 22px; }
+  .footer-main p, .footer-links a, .footer-contact a { font-size: 14px; line-height: 1.8; }
+  .footer-bottom { gap: 10px; font-size: 11px; padding-bottom: 90px; }
+  .mobile-dock { position: fixed; z-index: 50; left: 12px; right: 12px; bottom: max(12px,env(safe-area-inset-bottom)); display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; padding: 9px; border-radius: 16px; background: rgba(23,33,77,.96); box-shadow: 0 12px 35px rgba(12,20,55,.28); backdrop-filter: blur(14px); }
+  .mobile-dock button, .mobile-dock a { min-height: 54px; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 5px; border: 0; border-radius: 10px; padding: 8px 5px; background: transparent; color: white; font-size: 12px; font-weight: 800; text-align: center; }
+  .mobile-dock button:first-child { background: var(--orange); }
+  .mobile-dock span { font-size: 18px; }
+  .back-to-top { bottom: 92px; }
+}
+@media (max-width: 390px) {
+  .section-wrap { width: calc(100% - 28px); }
+  .header { padding-inline: 12px; }
+  .header-phone { font-size: 12px; }
+  .hero h1 { font-size: 34px; }
+  .sector-grid, .project-grid { grid-template-columns: minmax(0,1fr); }
+  .sector-card { min-height: 210px; }
+  .project-card { min-height: 300px; }
+  .mobile-dock button, .mobile-dock a { font-size: 11px; }
+}
+@media (hover: none) and (pointer: coarse) {
+  button, a { touch-action: manipulation; }
+  .button, .answer-option, .sector-card, .mobile-dock a, .mobile-dock button { cursor: pointer; }
+}
