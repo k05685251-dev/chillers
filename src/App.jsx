@@ -404,17 +404,11 @@ function App() {
             />
 
             <div className="hero-photo-shade" />
-            <div className="visual-note">
-              <span className="note-icon">✳</span>
-              <span><b>GRAD · HYC</b><small>Rasmiy distribyutor</small></span>
-            </div>
-            <div className="visual-caption">MUHANDISLIK · IQLIM NAZORATI</div>
             <div className="hero-spec-panel">
               <div><strong>32–450</strong><span>kVt quvvat diapazoni</span></div>
               <i />
               <div><strong>24 <small>soat</small></strong><span>Bepul hisob-kitob</span></div>
             </div>
-            <span className="visual-disclaimer">TEXNIK VIZUALIZATSIYA</span>
           </div>
         </section>
 
